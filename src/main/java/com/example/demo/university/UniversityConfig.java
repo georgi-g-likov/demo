@@ -1,3 +1,4 @@
+/*
 package com.example.demo.university;
 
 
@@ -7,10 +8,10 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
-@Configuration
+
 public class UniversityConfig {
 
-    @Bean
+
     CommandLineRunner commandLineRunnerUniversity(UniversityRepository repository){
         return args -> {
             University PU = new University(
@@ -25,3 +26,4 @@ public class UniversityConfig {
         };
     }
 }
+*/

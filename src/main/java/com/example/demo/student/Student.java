@@ -43,10 +43,12 @@ public class Student {
     }
 
     public Student(String name,
-                   LocalDate dob, String email) {
+                   LocalDate dob, String email,
+                   University uni) {
         this.name = name;
         this.dob = dob;
         this.email = email;
+        this.university = uni;
     }
 
     public Long getId() {
@@ -87,6 +89,14 @@ public class Student {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public University getUniversity() {
+        return university;
+    }
+
+    public void setUniversity(University university) {
+        this.university = university;
     }
 
     @Override
